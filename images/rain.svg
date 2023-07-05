@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="171.148" height="302.619" viewBox="0 0 171.148 302.619">
+  <defs>
+    <filter id="Path_17" x="0" y="0" width="107.22" height="173.942" filterUnits="userSpaceOnUse">
+      <feOffset dx="10" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-opacity="0.639"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_18" x="0" y="178.357" width="90.046" height="124.262" filterUnits="userSpaceOnUse">
+      <feOffset dx="10" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur-2"/>
+      <feFlood flood-opacity="0.639"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_19" x="73.11" y="113" width="98.038" height="135.357" filterUnits="userSpaceOnUse">
+      <feOffset dx="10" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur-3"/>
+      <feFlood flood-opacity="0.639"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="rain" transform="translate(-246.69 90.5)">
+    <g transform="matrix(1, 0, 0, 1, 246.69, -90.5)" filter="url(#Path_17)">
+      <path id="Path_17-2" data-name="Path 17" d="M31.11,128.941c31.525-.175,31.11-24.918,31.11-41.566S43.375-.23,31.11,0,0,70.728,0,87.375-.415,129.116,31.11,128.941Z" transform="translate(12.5 12.5)" fill="#4dc6fc"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 246.69, -90.5)" filter="url(#Path_18)">
+      <path id="Path_18-2" data-name="Path 18" d="M22.523,79.261c22.824-.107,22.523-15.318,22.523-25.551S31.4-.141,22.523,0,0,43.477,0,53.71-.3,79.369,22.523,79.261Z" transform="translate(12.5 190.86)" fill="#4dc6fc"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 246.69, -90.5)" filter="url(#Path_19)">
+      <path id="Path_19-2" data-name="Path 19" d="M26.519,85.76c26.873-.112,26.519-16,26.519-26.691S36.974-4.744,26.519-4.6,0,48.378,0,59.069-.354,85.872,26.519,85.76Z" transform="translate(85.61 130.1)" fill="#4dc6fc"/>
+    </g>
+  </g>
+</svg>

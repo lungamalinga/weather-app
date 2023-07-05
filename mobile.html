@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mobile Version</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<main id="mobile-content">
+		<div id="mobile-nav">
+			<input type="text" id="mobile-search" name="">
+			<button id="mobile-search-btn">🔎</button>
+		</div>
+		<div id="main-city-content">
+
+		</div>
+		<div class="day-content">
+			<div id="mobile-day-header">
+				Today : 22 Aug - 2022
+			</div>
+			<div id="m-day-img-and-temp" class="half-side">
+				<img src="images/thunder-storm.svg" width="100px" height="auto" alt=""> <br> 20°C
+			</div>
+			<div id="m-day-content" class="half-side">
+				<div class="m-content" id="mobile-min-temp">
+					Min : 5°C
+				</div>
+				<div class="m-content">
+					Max : 20°C
+				</div>
+				<div class="m-content">
+					Hum: 23%
+				</div>
+				<div class="m-content">
+					Rain: 2%
+				</div>
+				<div class="m-content">
+					Clear Sky
+				</div>
+			</div>
+		</div>
+		<div class="day-content">
+			next day content
+		</div>
+	</main>
+
+	<script>
+		let s_btn = document.getElementById('mobile-search-btn');
+		
+		s_btn.addEventListener('click', function(event){
+			alert('search pressed');
+		});
+		
+	</script>
+</body>
+
+</html>
